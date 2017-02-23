@@ -1,7 +1,7 @@
 #!/bin/bash
 set -u -e
 
-BAD_TARGET=//tensorflow_serving/apis:prediction_service_proto_py_pb2
+BAD_TARGET=//tensorflow_serving/example:inception_saved_model
 
 echo -e "\e[1;33m========== INITIALIZATION ==========\e[0m"
 git submodule update --init --recursive
